@@ -1,0 +1,18 @@
+body {
+	 background-color: black;
+	 overflow: hidden;
+}
+
+.logo {
+    position:fixed;
+    left:15px;
+    bottom:15px;
+}
+
+#overlay {
+	position: fixed;
+	left: 0px; top: 0px;
+	width: 100%; height: 100%;
+	z-index: -1;
+	background-repeat: repeat;
+}
